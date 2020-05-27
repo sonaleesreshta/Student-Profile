@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_list_rows"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/event_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nametextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Profile:"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/nameTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/yearTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year:"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/emailTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/numberTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number:"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
